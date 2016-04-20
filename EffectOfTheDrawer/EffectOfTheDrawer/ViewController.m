@@ -48,18 +48,21 @@
 - (void)pan:(UIPanGestureRecognizer *)pan{
     
     CGPoint transP = [pan translationInView:self.view];
-    
+    //获取偏移量
     CGFloat offsetX=transP.x;
     
     self.mainView.frame=CGRectMake(self.mainView.frame.origin.x+offsetX, 0, self.view.bounds.size.width, self.view.bounds.size.height);
+    
+    //复位
     [pan setTranslation:CGPointZero inView:self.view];
     
     
 }
 
-
+/**
+ *  创建view
+ */
 -(void)setView{
-    
     
     UIView* blueView=[[UIView alloc]initWithFrame:self.view.bounds];
     blueView.backgroundColor=[UIColor blueColor];

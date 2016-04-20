@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF36ABAF1CC7A591009F00B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABAE1CC7A591009F00B0 /* main.m */; };
+		CF36ABB21CC7A591009F00B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABB11CC7A591009F00B0 /* AppDelegate.m */; };
+		CF36ABB51CC7A591009F00B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABB41CC7A591009F00B0 /* ViewController.m */; };
+		CF36ABB81CC7A591009F00B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF36ABB61CC7A591009F00B0 /* Main.storyboard */; };
+		CF36ABBB1CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABB91CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodeld */; };
+		CF36ABBD1CC7A591009F00B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF36ABBC1CC7A591009F00B0 /* Assets.xcassets */; };
+		CF36ABC01CC7A591009F00B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF36ABBE1CC7A591009F00B0 /* LaunchScreen.storyboard */; };
+		CF36ABCB1CC7A591009F00B0 /* EffectOfTheDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABCA1CC7A591009F00B0 /* EffectOfTheDrawerTests.m */; };
+		CF36ABD61CC7A591009F00B0 /* EffectOfTheDrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABD51CC7A591009F00B0 /* EffectOfTheDrawerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF36ABC71CC7A591009F00B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF36ABA21CC7A591009F00B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF36ABA91CC7A591009F00B0;
+			remoteInfo = EffectOfTheDrawer;
+		};
+		CF36ABD21CC7A591009F00B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF36ABA21CC7A591009F00B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF36ABA91CC7A591009F00B0;
+			remoteInfo = EffectOfTheDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF36ABAA1CC7A591009F00B0 /* EffectOfTheDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectOfTheDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36ABAE1CC7A591009F00B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF36ABB01CC7A591009F00B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF36ABB11CC7A591009F00B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF36ABB31CC7A591009F00B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF36ABB41CC7A591009F00B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF36ABB71CC7A591009F00B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF36ABBA1CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EffectOfTheDrawer.xcdatamodel; sourceTree = "<group>"; };
+		CF36ABBC1CC7A591009F00B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF36ABBF1CC7A591009F00B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF36ABC11CC7A591009F00B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF36ABC61CC7A591009F00B0 /* EffectOfTheDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectOfTheDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36ABCA1CC7A591009F00B0 /* EffectOfTheDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectOfTheDrawerTests.m; sourceTree = "<group>"; };
+		CF36ABCC1CC7A591009F00B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF36ABD11CC7A591009F00B0 /* EffectOfTheDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectOfTheDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36ABD51CC7A591009F00B0 /* EffectOfTheDrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectOfTheDrawerUITests.m; sourceTree = "<group>"; };
+		CF36ABD71CC7A591009F00B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF36ABA71CC7A591009F00B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36ABC31CC7A591009F00B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36ABCE1CC7A591009F00B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF36ABA11CC7A591009F00B0 = {
+			isa = PBXGroup;
+			children = (
+				CF36ABAC1CC7A591009F00B0 /* EffectOfTheDrawer */,
+				CF36ABC91CC7A591009F00B0 /* EffectOfTheDrawerTests */,
+				CF36ABD41CC7A591009F00B0 /* EffectOfTheDrawerUITests */,
+				CF36ABAB1CC7A591009F00B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF36ABAB1CC7A591009F00B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF36ABAA1CC7A591009F00B0 /* EffectOfTheDrawer.app */,
+				CF36ABC61CC7A591009F00B0 /* EffectOfTheDrawerTests.xctest */,
+				CF36ABD11CC7A591009F00B0 /* EffectOfTheDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF36ABAC1CC7A591009F00B0 /* EffectOfTheDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				CF36ABB01CC7A591009F00B0 /* AppDelegate.h */,
+				CF36ABB11CC7A591009F00B0 /* AppDelegate.m */,
+				CF36ABB31CC7A591009F00B0 /* ViewController.h */,
+				CF36ABB41CC7A591009F00B0 /* ViewController.m */,
+				CF36ABB61CC7A591009F00B0 /* Main.storyboard */,
+				CF36ABBC1CC7A591009F00B0 /* Assets.xcassets */,
+				CF36ABBE1CC7A591009F00B0 /* LaunchScreen.storyboard */,
+				CF36ABC11CC7A591009F00B0 /* Info.plist */,
+				CF36ABB91CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodeld */,
+				CF36ABAD1CC7A591009F00B0 /* Supporting Files */,
+			);
+			path = EffectOfTheDrawer;
+			sourceTree = "<group>";
+		};
+		CF36ABAD1CC7A591009F00B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF36ABAE1CC7A591009F00B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF36ABC91CC7A591009F00B0 /* EffectOfTheDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF36ABCA1CC7A591009F00B0 /* EffectOfTheDrawerTests.m */,
+				CF36ABCC1CC7A591009F00B0 /* Info.plist */,
+			);
+			path = EffectOfTheDrawerTests;
+			sourceTree = "<group>";
+		};
+		CF36ABD41CC7A591009F00B0 /* EffectOfTheDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF36ABD51CC7A591009F00B0 /* EffectOfTheDrawerUITests.m */,
+				CF36ABD71CC7A591009F00B0 /* Info.plist */,
+			);
+			path = EffectOfTheDrawerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF36ABA91CC7A591009F00B0 /* EffectOfTheDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF36ABDA1CC7A591009F00B0 /* Build configuration list for PBXNativeTarget "EffectOfTheDrawer" */;
+			buildPhases = (
+				CF36ABA61CC7A591009F00B0 /* Sources */,
+				CF36ABA71CC7A591009F00B0 /* Frameworks */,
+				CF36ABA81CC7A591009F00B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EffectOfTheDrawer;
+			productName = EffectOfTheDrawer;
+			productReference = CF36ABAA1CC7A591009F00B0 /* EffectOfTheDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF36ABC51CC7A591009F00B0 /* EffectOfTheDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF36ABDD1CC7A591009F00B0 /* Build configuration list for PBXNativeTarget "EffectOfTheDrawerTests" */;
+			buildPhases = (
+				CF36ABC21CC7A591009F00B0 /* Sources */,
+				CF36ABC31CC7A591009F00B0 /* Frameworks */,
+				CF36ABC41CC7A591009F00B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF36ABC81CC7A591009F00B0 /* PBXTargetDependency */,
+			);
+			name = EffectOfTheDrawerTests;
+			productName = EffectOfTheDrawerTests;
+			productReference = CF36ABC61CC7A591009F00B0 /* EffectOfTheDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF36ABD01CC7A591009F00B0 /* EffectOfTheDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF36ABE01CC7A591009F00B0 /* Build configuration list for PBXNativeTarget "EffectOfTheDrawerUITests" */;
+			buildPhases = (
+				CF36ABCD1CC7A591009F00B0 /* Sources */,
+				CF36ABCE1CC7A591009F00B0 /* Frameworks */,
+				CF36ABCF1CC7A591009F00B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF36ABD31CC7A591009F00B0 /* PBXTargetDependency */,
+			);
+			name = EffectOfTheDrawerUITests;
+			productName = EffectOfTheDrawerUITests;
+			productReference = CF36ABD11CC7A591009F00B0 /* EffectOfTheDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF36ABA21CC7A591009F00B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF36ABA91CC7A591009F00B0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF36ABC51CC7A591009F00B0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF36ABA91CC7A591009F00B0;
+					};
+					CF36ABD01CC7A591009F00B0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF36ABA91CC7A591009F00B0;
+					};
+				};
+			};
+			buildConfigurationList = CF36ABA51CC7A591009F00B0 /* Build configuration list for PBXProject "EffectOfTheDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF36ABA11CC7A591009F00B0;
+			productRefGroup = CF36ABAB1CC7A591009F00B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF36ABA91CC7A591009F00B0 /* EffectOfTheDrawer */,
+				CF36ABC51CC7A591009F00B0 /* EffectOfTheDrawerTests */,
+				CF36ABD01CC7A591009F00B0 /* EffectOfTheDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF36ABA81CC7A591009F00B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF36ABC01CC7A591009F00B0 /* LaunchScreen.storyboard in Resources */,
+				CF36ABBD1CC7A591009F00B0 /* Assets.xcassets in Resources */,
+				CF36ABB81CC7A591009F00B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36ABC41CC7A591009F00B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36ABCF1CC7A591009F00B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF36ABA61CC7A591009F00B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF36ABB51CC7A591009F00B0 /* ViewController.m in Sources */,
+				CF36ABB21CC7A591009F00B0 /* AppDelegate.m in Sources */,
+				CF36ABBB1CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodeld in Sources */,
+				CF36ABAF1CC7A591009F00B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36ABC21CC7A591009F00B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF36ABCB1CC7A591009F00B0 /* EffectOfTheDrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36ABCD1CC7A591009F00B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF36ABD61CC7A591009F00B0 /* EffectOfTheDrawerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF36ABC81CC7A591009F00B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF36ABA91CC7A591009F00B0 /* EffectOfTheDrawer */;
+			targetProxy = CF36ABC71CC7A591009F00B0 /* PBXContainerItemProxy */;
+		};
+		CF36ABD31CC7A591009F00B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF36ABA91CC7A591009F00B0 /* EffectOfTheDrawer */;
+			targetProxy = CF36ABD21CC7A591009F00B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF36ABB61CC7A591009F00B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF36ABB71CC7A591009F00B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF36ABBE1CC7A591009F00B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF36ABBF1CC7A591009F00B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF36ABD81CC7A591009F00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF36ABD91CC7A591009F00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF36ABDB1CC7A591009F00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EffectOfTheDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfTheDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF36ABDC1CC7A591009F00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EffectOfTheDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfTheDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF36ABDE1CC7A591009F00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EffectOfTheDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfTheDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectOfTheDrawer.app/EffectOfTheDrawer";
+			};
+			name = Debug;
+		};
+		CF36ABDF1CC7A591009F00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EffectOfTheDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfTheDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectOfTheDrawer.app/EffectOfTheDrawer";
+			};
+			name = Release;
+		};
+		CF36ABE11CC7A591009F00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EffectOfTheDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfTheDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EffectOfTheDrawer;
+			};
+			name = Debug;
+		};
+		CF36ABE21CC7A591009F00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EffectOfTheDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfTheDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EffectOfTheDrawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF36ABA51CC7A591009F00B0 /* Build configuration list for PBXProject "EffectOfTheDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36ABD81CC7A591009F00B0 /* Debug */,
+				CF36ABD91CC7A591009F00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF36ABDA1CC7A591009F00B0 /* Build configuration list for PBXNativeTarget "EffectOfTheDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36ABDB1CC7A591009F00B0 /* Debug */,
+				CF36ABDC1CC7A591009F00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF36ABDD1CC7A591009F00B0 /* Build configuration list for PBXNativeTarget "EffectOfTheDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36ABDE1CC7A591009F00B0 /* Debug */,
+				CF36ABDF1CC7A591009F00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF36ABE01CC7A591009F00B0 /* Build configuration list for PBXNativeTarget "EffectOfTheDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36ABE11CC7A591009F00B0 /* Debug */,
+				CF36ABE21CC7A591009F00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF36ABB91CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF36ABBA1CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodel */,
+			);
+			currentVersion = CF36ABBA1CC7A591009F00B0 /* EffectOfTheDrawer.xcdatamodel */;
+			path = EffectOfTheDrawer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF36ABA21CC7A591009F00B0 /* Project object */;
+}

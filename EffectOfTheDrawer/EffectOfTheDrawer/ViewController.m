@@ -31,6 +31,14 @@
     //KVO
     [self.mainView addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew  context:nil];
     
+    UITapGestureRecognizer* tap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap)];
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)tap{
+    [UIView animateWithDuration:0.25 animations:^{
+        self.mainView.frame=self.view.bounds;
+    }];
 }
 
 //KVO方法
@@ -43,22 +51,65 @@
     }
     
 }
-
-
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define TargetR 275
+#define TargetL  -220
 - (void)pan:(UIPanGestureRecognizer *)pan{
     
     CGPoint transP = [pan translationInView:self.view];
     //获取偏移量
     CGFloat offsetX=transP.x;
     
-    self.mainView.frame=CGRectMake(self.mainView.frame.origin.x+offsetX, 0, self.view.bounds.size.width, self.view.bounds.size.height);
+    self.mainView.frame=[self getFrameFromOffset:offsetX];
     
     //复位
     [pan setTranslation:CGPointZero inView:self.view];
     
     
+    if (pan.state==UIGestureRecognizerStateEnded) {
+        CGFloat target=0;
+        if (CGRectGetMaxX(self.mainView.frame)<screenW*0.5) {
+            target=TargetL;
+        }else if (self.mainView.frame.origin.x>screenW*0.5){
+            target=TargetR;
+        }
+        CGFloat offSetX=target-self.mainView.frame.origin.x;
+        
+        [UIView animateWithDuration:0.25 animations:^{
+            self.mainView.frame=target==0?self.view.bounds:[self getFrameFromOffset:offSetX];
+        }];
+    }
 }
 
+-(CGRect)getFrameFromOffset:(CGFloat)offectX{
+    //取得先前的frame
+    CGRect frame=self.mainView.frame;
+    CGFloat preHight=frame.size.height;
+    CGFloat preWidth=frame.size.width;
+    
+    //计算Y的偏移量
+    CGFloat offsetY=offectX*80/screenW;
+    
+    //算出现在的宽高
+    CGFloat nowHight;
+    if (frame.origin.x<0) {
+       nowHight=preHight+offsetY*2;
+    }else{
+       nowHight=preHight-offsetY*2;
+    }
+    //获得形变缩放比例
+    CGFloat k=nowHight/preHight;
+    
+    CGFloat nowWidth=preWidth*k;
+    
+    CGFloat nowX=frame.origin.x+offectX;
+    CGFloat nowY=([UIScreen mainScreen].bounds.size.height-nowHight)/2;
+    
+    CGRect nowFrame=CGRectMake(nowX, nowY, nowWidth ,nowHight);
+    
+    return nowFrame;
+    
+}
 /**
  *  创建view
  */
